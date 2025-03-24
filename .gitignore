@@ -1,21 +1,21 @@
 # Ignorar dependências do frontend
-/frontend/node_modules/
-/frontend/package-lock.json
-/frontend/.next/
-/frontend/.vscode/
-/frontend/.eslintcache
-/frontend/.parcel-cache
-/frontend/.cache
-/frontend/yarn-debug.log*
+/banglejs-frontend/node_modules/
+/banglejs-frontend/package-lock.json
+/banglejs-frontend/.next/
+/banglejs-frontend/.vscode/
+/banglejs-frontend/.eslintcache
+/banglejs-frontend/.parcel-cache
+/banglejs-frontend/.cache
+/banglejs-frontend/yarn-debug.log*
 
 # Ignorar dependências do backend
-/backend/node_modules/
-/backend/package-lock.json
-/backend/.vscode/
-/backend/.npm/
-/backend/.eslintcache
-/backend/.cache
-/backend/yarn-debug.log*
+/banglejs-backend/node_modules/
+/banglejs-backend/package-lock.json
+/banglejs-backend/.vscode/
+/banglejs-backend/.npm/
+/banglejs-backend/.eslintcache
+/banglejs-backend/.cache
+/banglejs-backend/yarn-debug.log*
 
 # Ignorar arquivos de build
 /dist
