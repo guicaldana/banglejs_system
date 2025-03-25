@@ -102,7 +102,7 @@ export default function Home() {
       </header>
       <main className="flex items-center gap-2 px-4">
         <ScrollArea className="h-full w-full p-2 sm:p-4">
-          <Card className=" z-10 w-full dark:border-gray-600 dark:bg-gray-900">
+          <Card className=" z-10 ml-4 w-143 md:w-[96%] lg:w-[98%] dark:border-gray-600 dark:bg-gray-900 p-8">
             <CardHeader>
               <CardDescription>Informações do dispositivo:</CardDescription>
               <CardTitle className="text-2xl font-semibold tabular-nums @[250px]/card:text-3xl">
@@ -176,7 +176,7 @@ export default function Home() {
                       </span> : ""}
                     {hrm?.bpm && hrm?.bpm >= 60 && hrm?.bpm <= 100
                       ? <span className="bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-300 text-xs inline-flex items-center justify-center text-center py-1 px-4 rounded-full ">
-                      Normal.
+                      Normal
                     </span>
                       : ""}
                     
@@ -228,21 +228,21 @@ export default function Home() {
                 </CardHeader>
                 <CardContent>
                   <div className="flex items-center justify-center mt-16">
-                    <span className="text-xl font-bold"> Eixo x:</span>
+                    <span className="text-lg font-bold"> Eixo x: </span>
                     <span className="text-4xl font-bold">
                       {accel && accel.x ? translateAccel(Number(accel.x)) : 0}
                     </span>
                     <span className="text-2xl font-bold">m/s²</span>
                   </div>
                   <div className="flex items-center justify-center ">
-                    <span className="text-xl font-bold"> Eixo y:</span>
+                    <span className="text-lg font-bold"> Eixo y: </span>
                     <span className="text-4xl font-bold">
                       {accel && accel.y ? translateAccel(Number(accel.y)) : 0}
                     </span>
                     <span className="text-2xl font-bold">m/s²</span>
                   </div>
                   <div className="flex items-center justify-center ">
-                    <span className="text-xl font-bold"> Eixo z:</span>
+                    <span className="text-lg font-bold"> Eixo z: </span>
                     <span className="text-4xl font-bold">
                       {accel && accel.z ? translateAccel(Number(accel.z)) : 0}
                     </span>

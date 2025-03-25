@@ -1,7 +1,6 @@
 "use client"
 
 import {
-  Label,
   PolarGrid,
   PolarRadiusAxis,
   RadialBar,
@@ -43,7 +42,7 @@ export function RadialChartComponent({
 const chartData = [
     {steps: steps, fill: "var(--color-safari)" },
     ]
-const stepsGoal = 1000
+const stepsGoal = 10000
 
 const stepsPercentage = (steps/stepsGoal) * 100
 
