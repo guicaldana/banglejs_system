@@ -86,7 +86,7 @@ const chartAngle = (steps/stepsGoal) * 360
               axisLine={false}
               label={{
                 position: "center",
-                content: ({ viewBox }) => {
+                content: ({ viewBox }: { viewBox?: { cx?: number; cy?: number } }) => {
                   if (viewBox && "cx" in viewBox && "cy" in viewBox) {
                     return (
                       <text
